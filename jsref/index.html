@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        "use strict";
+
+        let a = 'This';
+        var b = 56;
+        const c = 55;
+        console.log(a,b,c);
+        // Numbers
+        // Booleans
+        // String
+        // undefined
+        // null
+        function hello(){
+            console.log("Hello")
+        }
+        let d={
+            m:34,
+            n:42,
+            func:function mynum(number){
+                console.log("The number is :" + number)
+            }
+        }
+        document.addEventListener("click",function click(){
+            console.log("Clicked");
+            // alert("Hello");
+            let conf = confirm("Are you sure?");
+            console.log(conf);
+        })
+
+        let arr = [34,21,23];
+        for(let i=0;i<arr.length;i++){
+            const el = arr[i];
+        }
+        setTimeout(()=>{
+            console.log("Yae")
+        },3000);
+        console.log("next");
+    </script>
+</head>
+<body>
+    <h1>Learning JS</h1>
+    
+</body>
+</html>
